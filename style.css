@@ -1,0 +1,141 @@
+body { 
+	color:#798777;
+	font-family: Times;
+	background-color: rgb(255, 251, 245);
+	font-size: 17px;
+	text-align: justify;
+}
+
+h1, h2, h3, p{
+font-family: Times;
+}
+
+h1 {
+  color: #BDD2B6;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+  color: rgb(162, 178, 159);
+	font-size: 25px;
+	text-align: center;
+}
+
+.card-white a {
+	text-decoration: underline;
+	color: rgb(255, 251, 245);
+	transition: color 0.3s ease;
+	text-align: center;
+}
+
+.card-white a:hover {
+	text-decoration: underline;
+	color: rgb(195, 172, 208);
+}
+
+#chloelogo {
+width: 300px;
+    border-radius: 50%;
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px){
+	.container {
+		width: 600px;
+		margin: 40px auto;
+	}
+}
+
+@media(max-width: 500px){
+	.container {
+		width: 400px;
+		margin: 40px auto;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: justify;
+}
+
+.btn-green {
+	background-color: #BDD2B6;
+	padding: 15px 20px;
+	border-radius: 4px;
+	display: block;
+    margin: auto;
+    width: 115px;
+}
+
+.btn-green:hover {
+	background-color: #BDD2B6;
+	color:#798777;
+	padding: 15px 20px;
+	border-radius: 4px;
+	display: block;
+    margin: auto;
+    width: 115px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline a {
+	font-size: 40px;
+	color: #798777; 
+}
+
+.list-inline a:hover {
+	font-size: 40px;
+	color: black; 
+}
+
+#intro {
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
